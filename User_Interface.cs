@@ -16,8 +16,9 @@ namespace POE_PART_2_CHATBOT
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.Write("ChatBot :> ");
             Console.ForegroundColor = ConsoleColor.White;
+            // Display welcome message
             Console.WriteLine($"Hello {name}, I'm here to help with cybersecurity related questions. Feel free to ask me anything related to cybersecurity, or type 'exit' to close the chat.");
-
+            // Prompt user for input    
             string options = string.Empty;
             do
             {
@@ -25,7 +26,7 @@ namespace POE_PART_2_CHATBOT
                 Console.Write($"{name} :> ");
                 Console.ForegroundColor = ConsoleColor.White;
                 options = Console.ReadLine();
-
+                // Check if the user wants to exit
                 if (options.ToLower().Equals("exit"))
                 {
                     search.goodbye(this.name);
