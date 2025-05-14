@@ -14,7 +14,7 @@ namespace POE_PART_2_CHATBOT
             string path = Path.Combine(new_path, "memory.txt");
             return path;
         }
-
+        // Return the path for the memory file
         // Check if the memory file exists, create it if not
         public void check_file()
         {
