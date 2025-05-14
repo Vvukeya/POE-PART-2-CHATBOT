@@ -13,6 +13,7 @@ namespace POE_PART_2_CHATBOT
         // Prompt user for their name
         public void ask_name()
         {
+            // Display greeting message
             Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine("************************************************************");
             Console.ForegroundColor = ConsoleColor.Blue;
