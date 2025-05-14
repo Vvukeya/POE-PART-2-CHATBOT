@@ -20,7 +20,7 @@ namespace POE_PART_2_CHATBOT
             topics.Add("phising");
             topics.Add("malware");
             topics.Add("ransomware");
-
+            // topics.Add("social engineering");
             store_ignore(ignore);
         }
 
