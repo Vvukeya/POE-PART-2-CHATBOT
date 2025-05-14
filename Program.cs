@@ -7,6 +7,7 @@ using POE_PART_2_CHATBOT;
 
 namespace POE_PART_2_CHATBOT
 {
+    // Main program class
     internal class Program
     {
         static void Main(string[] args)
