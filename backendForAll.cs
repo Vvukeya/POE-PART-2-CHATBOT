@@ -21,6 +21,7 @@ namespace POE_PART_2_CHATBOT
 
         public backendForAll(string name)
         {
+            // Constructor to initialize the chatbot
             userName = name; // Initialize userName
             topics = new stored_topics();
             ignoreWords = new List<string> { "what", "is", "the", "a", "an", "of", "to", "for", "how", "can", "i", "about" };
@@ -69,7 +70,7 @@ namespace POE_PART_2_CHATBOT
             List<string> filtered = filterInput(query);
             ArrayList topicsList = new ArrayList();
             topics.store_topics(topicsList, new ArrayList());
-
+            // Convert topicsList to a list of strings
             foreach (string topic in topicsList)
             {
                 foreach (string word in filtered)
