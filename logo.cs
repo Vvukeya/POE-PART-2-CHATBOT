@@ -8,7 +8,7 @@ namespace POE_PART_2_CHATBOT
 {
     public class logo
     {
-        //constructor
+        //constructor of the logo class
         public logo()
         {
             //get where the project is
